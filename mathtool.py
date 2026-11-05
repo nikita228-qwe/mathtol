@@ -1,6 +1,6 @@
 import math
 import sys
-m=10000
+m=50000000000
 def cr():
 
     print("mathtool — решение уравнений вида A*x^2 + B*x + C = 0")
@@ -18,7 +18,7 @@ if not zn:
 elif zn[0] == "--help":
     cr()
     sys.exit(0)
-elif zn[0] == "solve":
+elif zn[0] == "solve" or zn[0] == "sol":
      
      
     try:
