@@ -1,6 +1,6 @@
 import math
 import sys
-m=50000000000
+m=500000000000
 def cr():
 
     print("mathtool — решение уравнений вида A*x^2 + B*x + C = 0")
